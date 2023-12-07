@@ -171,7 +171,7 @@ const forgotPasswordController = async (req, res) => {
     });
   }
 };
-
+//update Profile
 const updateProfileController = async (req, res) => {
   try {
     const { name, email, password, address, phone } = req.body;
