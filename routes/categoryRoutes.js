@@ -10,7 +10,7 @@ const {
 
 const router = express.Router();
 
-//routes
+//all routes
 router.post(
   "/create-category",
   requireSignIn,
